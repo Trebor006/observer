@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mibu.observer.Observer</OriginalElement>
+  <nodes>
+    <node x="267.0" y="0.0">com.mibu.observer.Observer</node>
+    <node x="261.0" y="103.0">com.mibu.observer.Customer</node>
+    <node x="1.5" y="0.0">com.mibu.observer.Subject</node>
+    <node x="0.0" y="125.0">com.mibu.observer.CameraDeveloper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mibu.observer.Customer" target="com.mibu.observer.Observer">
+      <point x="0.0" y="-68.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.mibu.observer.CameraDeveloper" target="com.mibu.observer.Subject">
+      <point x="0.0" y="-90.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="77.5" y="130.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
